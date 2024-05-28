@@ -4,6 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     background: black;
+    overflow-y: hidden;
 }
 .verfication-box {
     position: relative;
@@ -85,29 +86,46 @@ h1 {
    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 } 
 
-.user-input-message {
+.user-message {
     font-size: 18px;
     text-align: center;
+    padding: 20px;
     color:#5ee25e;
     display: none;
 }
 
-.user-input-message.active {
+.user-message.active {
     display:block;
 }
 
-.input-field-button {
-    display: flex;
-    justify-content: center;
+.input-fieldB button {
     position: relative;
+    display: flex;
+    margin: 0 auto;
     margin-top: 2.5%;
+    /* user-select: none; */
 }
 
-.input-field-button button:active {
-    transform: scale(0.99);
+.input-fieldB button:active { 
+    transform: scale(0.98);
 }
 
-.input-field-button.disabled {
+.input-fieldB  button.disabled {
     opacity: 0.5;
     pointer-events: none;
+}
+
+.after-captcha {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    bottom: 10%;
+    /* bottom: 15%; */
+}
+.tick-finish {
+    position: absolute;
+    padding: 6px;
+    bottom: 11.75%;
+    /* bottom: 16.7%; */
+    right: 22.5%;
 }
