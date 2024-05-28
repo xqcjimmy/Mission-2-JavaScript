@@ -67,4 +67,44 @@ header {
 .different-WoW-games {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.WoW-blurb {
+    display: inline-block;
+    position: absolute;
+    width: max-content;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 135%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    font-size: medium;
+    /* border: 2px solid red; */
+}
+.DoTA-blurb {
+    display: inline-block;
+    position: absolute;
+    width: max-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 265%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    font-size: medium;
+    /* border: 2px solid red; */
+}
+.SC2-blurb {
+    display: inline-block;
+    position: absolute;
+    width: max-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 335%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+    font-size: x-large;
+    font-weight: 700;
+    /* border: 2px solid red; */
 }
