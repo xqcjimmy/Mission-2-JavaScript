@@ -40,18 +40,6 @@ header {
     opacity: 99%;
 }
 
-/* .foreground {
-    transform: translateZ(-1px) scale(1);
-}
-
-.foreground {
-    position: absolute;
-    height: 55%;
-    width: 50%;
-    object-fit: cover;
-    z-index: 1;
-} */
-
 .warcraft3ndota {
     border: 4px solid black;
     padding: 0.512rem;
