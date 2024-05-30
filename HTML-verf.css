@@ -120,6 +120,7 @@ h1 {
     justify-content: left;
     position: absolute;
     bottom: 10%;
+    color: antiquewhite;
     /* bottom: 15%; */
 }
 .tick-finish {
