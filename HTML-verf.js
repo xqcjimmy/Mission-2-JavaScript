@@ -33,6 +33,8 @@ const refreshBtnClick = () => {
     captchaKeyUpValidate();
 };
 
+// Submit Button disabled / active CSS properties
+
 const captchaKeyUpValidate = () => {
     subBtn.classList.toggle("disabled", !fieldText.value);
     if (!fieldText.value) correctMsg.classList.remove("active")};
@@ -44,6 +46,8 @@ const subBtnClick = () => {
     .join("");
     correctMsg.classList.add("active");
 
+// If Else statement
+
 if (fieldText.value === captchaText) {
     correctMsg.innerHTML = "Captcha is correct!";
     correctMsg.style.color = "#5ee25e"
@@ -53,6 +57,8 @@ if (fieldText.value === captchaText) {
     correctMsg.style.color = "#ff0000";
     console.log(`User has entered incorrect Captcha: ${fieldText.value}`);
 }};
+
+// addEventListener (function) for original const values
 
 refreshBtn.addEventListener("click", refreshBtnClick);
 fieldText.addEventListener("keyup", captchaKeyUpValidate);  
